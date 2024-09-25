@@ -6,7 +6,7 @@
 [Ll]ogs
 [Uu]serSettings
 
-!TEMP-Descargas/
+**/!TEMP-Descargas/
 
 # Crashlytics generated file
 crashlytics-build.properties
