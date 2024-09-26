@@ -113,12 +113,12 @@ TextureImporter:
       name: pixel_character_dark_green_0
       rect:
         serializedVersion: 2
-        x: 352
-        y: 203
-        width: 10
-        height: 25
+        x: 16
+        y: 344
+        width: 22
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 21
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,6 +147,90 @@ TextureImporter:
       bones: []
       spriteID: 8b98b8f949c9f6b468c16d8206a2ba6f
       internalID: 1239564914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_character_dark_green_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 344
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79691eef9a7bcd04bacfe8aa7f43305b
+      internalID: -1540620534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_character_dark_green_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 344
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81122d1e878986f4797e86ab1d1d6af9
+      internalID: -307792198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_character_dark_green_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 344
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3984c0843c5db264796fc1182ecb05e7
+      internalID: -1192750091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_character_dark_green_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 344
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55058e40b83d24f4b94c98af91aa4f8a
+      internalID: 1612446444
       vertices: []
       indices: 
       edges: []
@@ -164,6 +248,57 @@ TextureImporter:
     nameFileIdTable:
       pixel_character_dark_green_0: -856124321
       pixel_character_dark_green_1: 1239564914
+      pixel_character_dark_green_10: 1771019803
+      pixel_character_dark_green_11: 632092317
+      pixel_character_dark_green_12: 877479246
+      pixel_character_dark_green_13: -686839857
+      pixel_character_dark_green_14: 1315612609
+      pixel_character_dark_green_15: -530367197
+      pixel_character_dark_green_16: 2012336888
+      pixel_character_dark_green_17: 669287458
+      pixel_character_dark_green_18: 664131728
+      pixel_character_dark_green_19: -580571281
+      pixel_character_dark_green_2: -1540620534
+      pixel_character_dark_green_20: -1706867745
+      pixel_character_dark_green_21: -265607171
+      pixel_character_dark_green_22: -1778424772
+      pixel_character_dark_green_23: 1799239236
+      pixel_character_dark_green_24: -1358504998
+      pixel_character_dark_green_25: -382676628
+      pixel_character_dark_green_26: -55034928
+      pixel_character_dark_green_27: -246260142
+      pixel_character_dark_green_28: -825864985
+      pixel_character_dark_green_29: 117274511
+      pixel_character_dark_green_3: -307792198
+      pixel_character_dark_green_30: -154257204
+      pixel_character_dark_green_31: 1392964086
+      pixel_character_dark_green_32: 1326879401
+      pixel_character_dark_green_33: -1427668357
+      pixel_character_dark_green_34: 513417210
+      pixel_character_dark_green_35: -503848903
+      pixel_character_dark_green_36: -1793847108
+      pixel_character_dark_green_37: -100212296
+      pixel_character_dark_green_38: -882229350
+      pixel_character_dark_green_39: -408114965
+      pixel_character_dark_green_4: -1192750091
+      pixel_character_dark_green_40: 529914110
+      pixel_character_dark_green_41: 2023547094
+      pixel_character_dark_green_42: -1788916686
+      pixel_character_dark_green_43: 539248499
+      pixel_character_dark_green_44: -1294726926
+      pixel_character_dark_green_45: -113544798
+      pixel_character_dark_green_46: -610509157
+      pixel_character_dark_green_47: -1903296912
+      pixel_character_dark_green_48: -1462816090
+      pixel_character_dark_green_49: -1760747189
+      pixel_character_dark_green_5: 1612446444
+      pixel_character_dark_green_50: -1237064303
+      pixel_character_dark_green_51: 1728500341
+      pixel_character_dark_green_52: 1522120696
+      pixel_character_dark_green_6: 717252713
+      pixel_character_dark_green_7: 12677024
+      pixel_character_dark_green_8: 1296433971
+      pixel_character_dark_green_9: -193686860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
