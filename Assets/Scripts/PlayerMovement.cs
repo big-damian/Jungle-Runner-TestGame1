@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float Speed = 1;
     public float JumpForce = 150;
+    private bool Grounded;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,15 @@ public class PlayerMovement : MonoBehaviour
     {
         InputHorizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        // Detectar Suelo
+        Debug.DrawRay(transform.position, Vector3.down * 0.2f, Color.red);
+        if (Physics2D.Raycast(transform.position, Vector3.down, 0.2f))
+        {
+            Grounded = true;
+        }
+        else Grounded = false;
+
+        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
         }
@@ -36,6 +45,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        Rigidbody2D.AddForce(Vector2.up);
+        Rigidbody2D.AddForce(Vector2.up * JumpForce);
     }
 }
