@@ -5,24 +5,37 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D Rigidbody2D;
 
-    private float inputHorizontal;
+    private float InputHorizontal;
+
+    public float Speed = 1;
+    public float JumpForce = 150;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        inputHorizontal = Input.GetAxisRaw("Horizontal");
+        InputHorizontal = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+        }
     }
 
     private void FixedUpdate()
     {
-        rigidbody2D.velocity = new Vector2(inputHorizontal, rigidbody2D.velocity.y);
+        Rigidbody2D.velocity = new Vector2(InputHorizontal, Rigidbody2D.velocity.y);
+    }
+
+    private void Jump()
+    {
+        Rigidbody2D.AddForce(Vector2.up);
     }
 }
