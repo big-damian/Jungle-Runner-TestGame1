@@ -4546,6 +4546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f36fc2a532fe6448d62ec539984c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 1
+  JumpForce: 150
 --- !u!212 &1495693697
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4646,7 +4648,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.19, y: 0.29}
+  m_Size: {x: 0.19, y: 0.28}
   m_Direction: 0
 --- !u!50 &1495693700
 Rigidbody2D:
